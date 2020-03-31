@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "Donor Spot",
+        "description": "Donor Spot was created with the intention of connecting users with charities and being able to support the causes as they choose.",
+        "githubLink": "https://github.com/henryni914/DonorSpot",
+        "demoLink": "https://mighty-stream-41185.herokuapp.com/",
+        "technologies": ["Node.js", "sequelize", "CRUD"]
+    },
+    {
+        "id": 2,
+        "name": "Command Line Generator",
+        "description": "The purpose of this generator is to allow a company to create a quick overview of employees through a series of prompts.",
+        "githubLink": "https://github.com/henryni914/Command-Line-Generator",
+        "demoLink": "",
+        "technologies": ["Node.js", "CLI", "handlebars"]
+    }
+]
