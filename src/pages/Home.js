@@ -7,8 +7,7 @@ function Home() {
                 <h1>Henry's Portfolio</h1>
                 <img alt="Henry"></img>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum unde doloribus ad libero est, eveniet fugit iste atque corporis deleniti assumenda illo at cupiditate enim ut sint asperiores, aliquam quibusdam!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum unde doloribus ad libero est, eveniet fugit iste atque corporis deleniti assumenda illo at cupiditate enim ut sint asperiores, aliquam quibusdam!
+                    Hello, my name is Henry and I am a recent graduate of the full stack web development program offered by Rutgers University. I have acquired skills such as, Javascript, MERN stack, HTML, mySQL and CSS. If you have any inquiries, please feel free to contact me via email or by phone. 
                 </p>
             </div>
         </div>
