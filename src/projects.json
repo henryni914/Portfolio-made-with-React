@@ -14,5 +14,13 @@
         "githubLink": "https://github.com/henryni914/Command-Line-Generator",
         "demoLink": "",
         "technologies": ["Node.js", "CLI", "handlebars"]
+    },
+    {
+        "id": 3,
+        "name": "E-Commerce Shop",
+        "description": "In this day and age, being able to promote your store or brand online, is an important aspect of running a business.",
+        "githubLink": "https://github.com/henryni914/ECommerce_WebApp",
+        "demoLink": "https://ecommerce-bootcamp.herokuapp.com/",
+        "technologies": ["MERN Stack", "auth0", "Stripe"]
     }
 ]
