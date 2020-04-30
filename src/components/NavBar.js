@@ -1,29 +1,50 @@
-import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
 
-function NavBar() {
-
-    const location = useLocation();
+export default function NavBar() {
 
     return (
-        <ul className="nav nav-tabs">
-            <li className="nav-item">
-                <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
-                    Home
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link to="/project" className={location.pathname === "/project" ? "nav-link active" : "nav-link"}>
-                    Project
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-                    Contact
-                </Link>
-            </li>
-        </ul>
+        <Navbar bg="dark" variant="dark">
+            <Navbar.Brand href="#home">
+                <img
+                    alt=""
+                    src="/logo.svg"
+                    width="30"
+                    height="30"
+                    className="d-inline-block align-top"
+                />{' '}
+      React Bootstrap
+    </Navbar.Brand>
+        </Navbar>
     )
 }
 
-export default NavBar;
+
+// import { Link, useLocation } from "react-router-dom";
+
+// function NavBar() {
+
+//     const location = useLocation();
+
+//     return (
+//         <ul className="nav nav-tabs">
+//             <li className="nav-item">
+//                 <Link to="/" className={location.pathname === "/" ? "nav-link active" : "nav-link"}>
+//                     Home
+//                 </Link>
+//             </li>
+//             <li className="nav-item">
+//                 <Link to="/project" className={location.pathname === "/project" ? "nav-link active" : "nav-link"}>
+//                     Project
+//                 </Link>
+//             </li>
+//             <li className="nav-item">
+//                 <Link to="/contact" className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
+//                     Contact
+//                 </Link>
+//             </li>
+//         </ul>
+//     )
+// }
+
+// export default NavBar;

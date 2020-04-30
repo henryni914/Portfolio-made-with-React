@@ -1,17 +1,13 @@
-import React from "react";
+import React from 'react';
+import NavBar from '../components/NavBar'
+import Jumbotron from '../components/Jumbotron'
 
-function Home() {
+export default function Home() {
+
     return (
-        <div>
-            <div className="container">
-                <h1>Henry's Portfolio</h1>
-                <img alt="Henry"></img>
-                <p>
-                    Hello, my name is Henry and I am a recent graduate of the full stack web development program offered by Rutgers University. I have acquired skills such as, Javascript, MERN stack, HTML, mySQL and CSS. If you have any inquiries, please feel free to contact me via email or by phone. 
-                </p>
-            </div>
-        </div>
-    );
+        <>
+            <NavBar />
+            <Jumbotron />
+        </>
+    )
 }
-
-export default Home;
