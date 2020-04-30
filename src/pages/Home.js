@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from '../components/NavBar'
 import Jumbotron from '../components/Jumbotron'
+import ProjectCarousel from '../components/ProjectCarousel'
 
 export default function Home() {
 
@@ -8,6 +9,7 @@ export default function Home() {
         <>
             <NavBar />
             <Jumbotron />
+            <ProjectCarousel />
         </>
     )
 }

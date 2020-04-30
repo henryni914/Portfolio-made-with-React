@@ -8,12 +8,12 @@ export default function NavBar() {
             <Navbar.Brand href="#home">
                 <img
                     alt=""
-                    src="/logo.svg"
+                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
                     width="30"
                     height="30"
-                    className="d-inline-block align-top"
+                    className="d-inline-block align-top rounded"
                 />{' '}
-      React Bootstrap
+      Henry's Portfolio
     </Navbar.Brand>
         </Navbar>
     )
