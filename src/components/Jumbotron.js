@@ -40,6 +40,9 @@ export default function PageJumbotron() {
                         <p>
                             Add a picture that spans the banner and introduces myself in a sentence or two.
                     </p>
+                    <p>
+                        Sample
+                    </p>
                         <p>
                             <Button variant="primary" className='mr-2' href="https://github.com/henryni914" target="_blank">Github</Button>
                             <Button variant="primary" className='mr-2'>Resume</Button>
