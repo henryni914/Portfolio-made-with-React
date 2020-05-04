@@ -8,8 +8,9 @@ export default function Home() {
     return (
         <>
             <NavBar />
-            <Jumbotron />
             <ProjectCarousel />
+            <Jumbotron />
+            
         </>
     )
 }
