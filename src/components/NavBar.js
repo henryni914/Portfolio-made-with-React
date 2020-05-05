@@ -1,21 +1,29 @@
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
+import Breadcrumb from 'react-bootstrap/Breadcrumb'
 
 export default function NavBar() {
 
     return (
-        <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">
-                <img
-                    alt=""
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-                    width="30"
-                    height="30"
-                    className="d-inline-block align-top rounded"
-                />{' '}
-      Henry's Portfolio
-    </Navbar.Brand>
-        </Navbar>
+        <Breadcrumb>
+            <Breadcrumb.Item href="#">Home</Breadcrumb.Item>
+            <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
+                Library
+  </Breadcrumb.Item>
+            <Breadcrumb.Item active>Data</Breadcrumb.Item>
+        </Breadcrumb>
+        //     <Navbar bg="dark" variant="dark">
+        //         <Navbar.Brand href="#home">
+        //             <img
+        //                 alt=""
+        //                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+        //                 width="30"
+        //                 height="30"
+        //                 className="d-inline-block align-top rounded"
+        //             />{' '}
+        //   Henry's Portfolio
+        // </Navbar.Brand>
+        //     </Navbar>
     )
 }
 
