@@ -9,6 +9,7 @@ export default function Home() {
         <>
             <NavBar />
             <Jumbotron />
+            <h2 align='center'>Projects</h2>
             <ProjectCarousel />
         </>
     )

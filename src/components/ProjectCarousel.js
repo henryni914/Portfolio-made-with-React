@@ -21,16 +21,53 @@ export default function ProjectCarousel() {
             <Carousel.Item align='center'>
                 <img
                     className="d-block w-100"
-                    // height='500'
+                    height='500'
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
                     alt="Second slide"
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <h3>E-Commerce Shop</h3>
+                    <p>The motivation behind creating this application was the goal of creating a MERN full stack web application that would allow store owners or individuals to market/brand their products or services online. In this day and age, establishing an online presence can be a key factor of whether a business, brand or image can stay afloat and survive. </p>
+                    <Button className='ml-2'href="https://ecommerce-bootcamp.herokuapp.com/" target="_blank">Demo</Button>
+                    <Button className='ml-2'href="https://github.com/henryni914/ECommerce_WebApp" target="_blank">Github</Button>
                 </Carousel.Caption>
-                {/* <Row align='center'>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    height='500'
+                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                    alt="Second slide"
+                />
+
+                <Carousel.Caption>
+                    <h3>DonorSpot</h3>
+                    <p>This web application allows users to connect to charities or fundraisers they would like to support with monetary donations. In addition to donating, users can also create their own charity or fundraising page to ask for support from the visitors of the site.</p>
+                    <Button className='ml-2' href="https://mighty-stream-41185.herokuapp.com/" target="_blank">Demo</Button>
+                    <Button className='ml-2' href="https://github.com/Anierva95/DonorSpot" target="_blank">Github</Button>
+                </Carousel.Caption>
+            </Carousel.Item>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    height='500'
+                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                    alt="Third slide"
+                />
+
+                <Carousel.Caption>
+                    <h3>Third slide label</h3>
+                    <p></p>
+                    <Button className='ml-2'href="" target="_blank">Demo</Button>
+                    <Button className='ml-2'href="" target="_blank">Github</Button>
+                </Carousel.Caption>
+            </Carousel.Item>
+        </Carousel>
+    )
+}
+
+{/* <Row align='center'>
                     <Card className='col-md-3 mb-2 ml-5'>
                         <Card.Img src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
                             alt="First slide">
@@ -89,35 +126,3 @@ export default function ProjectCarousel() {
                         </Card.Body>
                     </Card>
                 </Row> */}
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    // height='500'
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-                    alt="Second slide"
-                />
-
-                <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    // height='500'
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-                    alt="Third slide"
-                />
-
-                <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-            </p>
-                </Carousel.Caption>
-            </Carousel.Item>
-        </Carousel>
-    )
-}
