@@ -19,9 +19,20 @@ export default function ProjectCarousel() {
 
         <Carousel className='carousel-multi-item' activeIndex={index} onSelect={handleSelect} fluid>
             <Carousel.Item align='center'>
-                <Row align='center'>
+                <img
+                    className="d-block w-100"
+                    // height='500'
+                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                    alt="Second slide"
+                />
+
+                <Carousel.Caption>
+                    <h3>Second slide label</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </Carousel.Caption>
+                {/* <Row align='center'>
                     <Card className='col-md-3 mb-2 ml-5'>
-                        <Card.Img variant="top" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                        <Card.Img src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
                             alt="First slide">
                         </Card.Img>
                         <Card.Body>
@@ -77,18 +88,8 @@ export default function ProjectCarousel() {
                         </Button>
                         </Card.Body>
                     </Card>
-                </Row>
+                </Row> */}
             </Carousel.Item>
-            {/* <img
-                        className="d-block w-100"
-                        // height='500'
-                        src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-                        alt="First slide"
-                    />
-                    <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption> */}
             <Carousel.Item>
                 <img
                     className="d-block w-100"
