@@ -57,10 +57,10 @@ export default function ProjectCarousel() {
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p></p>
-                    <Button className='ml-2'href="" target="_blank">Demo</Button>
-                    <Button className='ml-2'href="" target="_blank">Github</Button>
+                    <h3>Personal dashboard</h3>
+                    <p>The motivation behind creating a personal dashboard is to create a user customizable page that has information they want displayed to them readily available with just a glance. </p>
+                    <Button className='ml-2'href="https://henryni914.github.io/personal-dashboard/" target="_blank">Demo</Button>
+                    <Button className='ml-2'href="https://github.com/henryni914/personal-dashboard" target="_blank">Github</Button>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
