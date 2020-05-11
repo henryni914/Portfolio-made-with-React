@@ -2,6 +2,9 @@ import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
 import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
+import Container from 'react-bootstrap/Container'
+import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
 // import CardBody from 'react-bootstrap/CardImg'
 // import CardTitle from'react-bootstrap/CardTitle'
 // import CardText from 'react-bootstrap/CardText'
@@ -27,6 +30,19 @@ export default function ProjectCarousel() {
                 />
 
                 <Carousel.Caption>
+                    <Container>
+                        <Row>
+                            <Col xs={6} md={4}>
+                                <Image width='175' height='175' src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" rounded />
+                            </Col>
+                            <Col xs={6} md={4}>
+                                <Image  width='175' height='175' src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" rounded />
+                            </Col>
+                            <Col xs={6} md={4}>
+                                <Image  width='175' height='175' src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" rounded />
+                            </Col>
+                        </Row>
+                    </Container>
                     <h3>E-Commerce Shop</h3>
                     <p>The motivation behind creating this application was the goal of creating a MERN full stack web application that would allow store owners or individuals to market/brand their products or services online. In this day and age, establishing an online presence can be a key factor of whether a business, brand or image can stay afloat and survive. </p>
                     <Button className='ml-2' href="https://ecommerce-bootcamp.herokuapp.com/" target="_blank">Demo</Button>
@@ -55,13 +71,6 @@ export default function ProjectCarousel() {
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
                     alt="Third slide"
                 />
-
-                <Carousel.Caption>
-                    <h3>Personal dashboard</h3>
-                    <p>The motivation behind creating a personal dashboard is to create a user customizable page that has information they want displayed to them readily available with just a glance. </p>
-                    <Button className='ml-2' href="https://henryni914.github.io/personal-dashboard/" target="_blank">Demo</Button>
-                    <Button className='ml-2' href="https://github.com/henryni914/personal-dashboard" target="_blank">Github</Button>
-                </Carousel.Caption>
                 <Carousel.Caption>
                     <h3>Personal dashboard</h3>
                     <p>The motivation behind creating a personal dashboard is to create a user customizable page that has information they want displayed to them readily available with just a glance. </p>
