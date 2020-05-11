@@ -1,16 +1,17 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel'
-import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
+import Button from 'react-bootstrap/Button'
 import cart from '../images/Cart.png'
 import addtocart from '../images/AddToCart.png'
-// import CardBody from 'react-bootstrap/CardImg'
-// import CardTitle from'react-bootstrap/CardTitle'
-// import CardText from 'react-bootstrap/CardText'
-import Button from 'react-bootstrap/Button'
+import donorHome from '../images/DonorSpot Home.png'
+import charityPage from '../images/CharityPage.png'
+import dashTop from '../images/DashTop.png'
+import dashBottom from '../images/DashBottom.png'
+
 
 export default function ProjectCarousel() {
 
@@ -60,10 +61,10 @@ export default function ProjectCarousel() {
                     <Container>
                         <Row>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={cart} rounded />
+                                <Image width='500' height='250' src={donorHome} rounded />
                             </Col>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={addtocart} rounded />
+                                <Image width='500' height='250' src={charityPage} rounded />
                             </Col>
                         </Row>
                     </Container>
@@ -84,15 +85,15 @@ export default function ProjectCarousel() {
                     <Container>
                         <Row>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={cart} rounded />
+                                <Image width='500' height='250' src={dashTop} rounded />
                             </Col>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={addtocart} rounded />
+                                <Image width='500' height='250' src={dashBottom} rounded />
                             </Col>
                         </Row>
                     </Container>
                     <h3>Personal dashboard</h3>
-                    <p>The motivation behind creating a personal dashboard is to create a user customizable page that has information they want displayed to them readily available with just a glance. </p>
+                    <p>The motivation behind creating a personal dashboard is to create a user customizable page that has information they want displayed. This essentially creates a 'one-stop shop' for users to get updated or informed on matters they would like to have readily available. Some options include, real-time stock prices, weather, top headlines, and a map with real-time traffic. </p>
                     <Button className='ml-2' href="https://henryni914.github.io/personal-dashboard/" target="_blank">Demo</Button>
                     <Button className='ml-2' href="https://github.com/henryni914/personal-dashboard" target="_blank">Github</Button>
                 </Carousel.Caption>
