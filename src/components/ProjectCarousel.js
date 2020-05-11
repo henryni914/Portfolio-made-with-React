@@ -5,6 +5,8 @@ import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
+import cart from '../images/Cart.png'
+import addtocart from '../images/AddToCart.png'
 // import CardBody from 'react-bootstrap/CardImg'
 // import CardTitle from'react-bootstrap/CardTitle'
 // import CardText from 'react-bootstrap/CardText'
@@ -32,14 +34,11 @@ export default function ProjectCarousel() {
                 <Carousel.Caption>
                     <Container>
                         <Row>
-                            <Col xs={6} md={4}>
-                                <Image width='175' height='175' src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" rounded />
+                            <Col xs={6} md={6}>
+                                <Image width='500' height='250' src={cart} rounded />
                             </Col>
-                            <Col xs={6} md={4}>
-                                <Image  width='175' height='175' src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" rounded />
-                            </Col>
-                            <Col xs={6} md={4}>
-                                <Image  width='175' height='175' src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg" rounded />
+                            <Col xs={6} md={6}>
+                                <Image width='500' height='250' src={addtocart} rounded />
                             </Col>
                         </Row>
                     </Container>
@@ -58,6 +57,16 @@ export default function ProjectCarousel() {
                 />
 
                 <Carousel.Caption>
+                    <Container>
+                        <Row>
+                            <Col xs={6} md={6}>
+                                <Image width='500' height='250' src={cart} rounded />
+                            </Col>
+                            <Col xs={6} md={6}>
+                                <Image width='500' height='250' src={addtocart} rounded />
+                            </Col>
+                        </Row>
+                    </Container>
                     <h3>DonorSpot</h3>
                     <p>This web application allows users to connect to charities or fundraisers they would like to support with monetary donations. In addition to donating, users can also create their own charity or fundraising page to ask for support from the visitors of the site.</p>
                     <Button className='ml-2' href="https://mighty-stream-41185.herokuapp.com/" target="_blank">Demo</Button>
@@ -72,6 +81,16 @@ export default function ProjectCarousel() {
                     alt="Third slide"
                 />
                 <Carousel.Caption>
+                    <Container>
+                        <Row>
+                            <Col xs={6} md={6}>
+                                <Image width='500' height='250' src={cart} rounded />
+                            </Col>
+                            <Col xs={6} md={6}>
+                                <Image width='500' height='250' src={addtocart} rounded />
+                            </Col>
+                        </Row>
+                    </Container>
                     <h3>Personal dashboard</h3>
                     <p>The motivation behind creating a personal dashboard is to create a user customizable page that has information they want displayed to them readily available with just a glance. </p>
                     <Button className='ml-2' href="https://henryni914.github.io/personal-dashboard/" target="_blank">Demo</Button>
