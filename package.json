@@ -1,4 +1,5 @@
 {
+  "homepage": "http://henryni914.github.io/Portfolio-made-with-React",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +12,7 @@
     "@testing-library/user-event": "^7.2.1",
     "bootstrap": "^4.4.1",
     "emotion-theming": "^10.0.27",
+    "gh-pages": "^2.2.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
