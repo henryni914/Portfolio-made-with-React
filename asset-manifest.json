@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio-made-with-React/static/css/main.5a6b043f.chunk.css",
+    "main.js": "/Portfolio-made-with-React/static/js/main.68b9e9bc.chunk.js",
+    "main.js.map": "/Portfolio-made-with-React/static/js/main.68b9e9bc.chunk.js.map",
+    "runtime-main.js": "/Portfolio-made-with-React/static/js/runtime-main.315eb77a.js",
+    "runtime-main.js.map": "/Portfolio-made-with-React/static/js/runtime-main.315eb77a.js.map",
+    "static/js/2.8daac3c0.chunk.js": "/Portfolio-made-with-React/static/js/2.8daac3c0.chunk.js",
+    "static/js/2.8daac3c0.chunk.js.map": "/Portfolio-made-with-React/static/js/2.8daac3c0.chunk.js.map",
+    "index.html": "/Portfolio-made-with-React/index.html",
+    "precache-manifest.f8e75031141a1b9789d6fffa68bb73f9.js": "/Portfolio-made-with-React/precache-manifest.f8e75031141a1b9789d6fffa68bb73f9.js",
+    "service-worker.js": "/Portfolio-made-with-React/service-worker.js",
+    "static/css/main.5a6b043f.chunk.css.map": "/Portfolio-made-with-React/static/css/main.5a6b043f.chunk.css.map",
+    "static/js/2.8daac3c0.chunk.js.LICENSE.txt": "/Portfolio-made-with-React/static/js/2.8daac3c0.chunk.js.LICENSE.txt",
+    "static/media/AddToCart.png": "/Portfolio-made-with-React/static/media/AddToCart.336a8192.png",
+    "static/media/Cart.png": "/Portfolio-made-with-React/static/media/Cart.8f42f016.png",
+    "static/media/CharityPage.png": "/Portfolio-made-with-React/static/media/CharityPage.1ecfcca5.png",
+    "static/media/DashBottom.png": "/Portfolio-made-with-React/static/media/DashBottom.911c036e.png",
+    "static/media/DashTop.png": "/Portfolio-made-with-React/static/media/DashTop.d8171b8f.png",
+    "static/media/DonorSpot Home.png": "/Portfolio-made-with-React/static/media/DonorSpot Home.e3a6652b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.315eb77a.js",
+    "static/js/2.8daac3c0.chunk.js",
+    "static/css/main.5a6b043f.chunk.css",
+    "static/js/main.68b9e9bc.chunk.js"
+  ]
+}
