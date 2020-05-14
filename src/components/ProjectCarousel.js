@@ -36,10 +36,10 @@ export default function ProjectCarousel() {
                     <Container>
                         <Row>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={cart} rounded />
+                                <Image width='500' height='250' src={cart} rounded fluid/>
                             </Col>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={addtocart} rounded />
+                                <Image width='500' height='250' src={addtocart} rounded fluid/>
                             </Col>
                         </Row>
                     </Container>
@@ -61,10 +61,10 @@ export default function ProjectCarousel() {
                     <Container>
                         <Row>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={donorHome} rounded />
+                                <Image width='500' height='250' src={donorHome} rounded fluid/>
                             </Col>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={charityPage} rounded />
+                                <Image width='500' height='250' src={charityPage} rounded fluid/>
                             </Col>
                         </Row>
                     </Container>
@@ -85,10 +85,10 @@ export default function ProjectCarousel() {
                     <Container>
                         <Row>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={dashTop} rounded />
+                                <Image width='500' height='250' src={dashTop} rounded fluid/>
                             </Col>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={dashBottom} rounded />
+                                <Image width='500' height='250' src={dashBottom} rounded fluid/>
                             </Col>
                         </Row>
                     </Container>

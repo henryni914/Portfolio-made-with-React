@@ -6,13 +6,13 @@ export default function NavBar() {
     return (
         <Navbar bg="dark" variant="dark">
             <Navbar.Brand href="#home">
-                <img
+                {/* <img
                     alt=""
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
                     width="30"
                     height="30"
                     className="d-inline-block align-top rounded"
-                />{' '}
+                />{' '} */}
           Henry's Portfolio
         </Navbar.Brand>
         </Navbar>
