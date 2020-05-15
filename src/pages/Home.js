@@ -4,6 +4,7 @@ import Jumbotron from '../components/Jumbotron'
 import ProjectCarousel from '../components/ProjectCarousel'
 import ProjectBanner from '../components/ProjectBanner'
 import SkillBanner from '../components/SkillBanner'
+import SkillContainer from '../components/SkillContainer'
 
 export default function Home() {
 
@@ -12,6 +13,7 @@ export default function Home() {
             <NavBar />
             <Jumbotron />
             <SkillBanner />
+            <SkillContainer />
             <ProjectBanner />
             {/* <h2 align='center'>Projects</h2> */}
             <ProjectCarousel />
