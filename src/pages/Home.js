@@ -15,7 +15,6 @@ export default function Home() {
             <SkillBanner />
             <SkillContainer />
             <ProjectBanner />
-            {/* <h2 align='center'>Projects</h2> */}
             <ProjectCarousel />
         </>
     )

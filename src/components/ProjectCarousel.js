@@ -31,15 +31,14 @@ export default function ProjectCarousel() {
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
                     alt="Second slide"
                 />
-
                 <Carousel.Caption>
                     <Container>
                         <Row>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={cart} rounded fluid/>
+                                <Image width='500' height='250' src={cart} rounded fluid />
                             </Col>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={addtocart} rounded fluid/>
+                                <Image width='500' height='250' src={addtocart} rounded fluid />
                             </Col>
                         </Row>
                     </Container>
@@ -56,15 +55,14 @@ export default function ProjectCarousel() {
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
                     alt="Second slide"
                 />
-
                 <Carousel.Caption>
                     <Container>
                         <Row>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={donorHome} rounded fluid/>
+                                <Image width='500' height='250' src={donorHome} rounded fluid />
                             </Col>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={charityPage} rounded fluid/>
+                                <Image width='500' height='250' src={charityPage} rounded fluid />
                             </Col>
                         </Row>
                     </Container>
@@ -85,10 +83,10 @@ export default function ProjectCarousel() {
                     <Container>
                         <Row>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={dashTop} rounded fluid/>
+                                <Image width='500' height='250' src={dashTop} rounded fluid />
                             </Col>
                             <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={dashBottom} rounded fluid/>
+                                <Image width='500' height='250' src={dashBottom} rounded fluid />
                             </Col>
                         </Row>
                     </Container>
