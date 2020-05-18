@@ -8,9 +8,12 @@ export default function SkillContainer() {
     return (
         <Jumbotron className='d-block w-100'>
             <Row>
-                <p>Hello</p>
-                <p>World</p>
-                <h2>Testing</h2>
+               <ol>
+                   <li>JavaScript</li>
+                   <li>ReactJS</li>
+                   <li>CSS</li>
+                   <li>MERN Stack</li>
+               </ol>
             </Row>
 
         </Jumbotron>
