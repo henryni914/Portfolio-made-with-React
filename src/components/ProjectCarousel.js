@@ -32,6 +32,7 @@ export default function ProjectCarousel() {
                     alt="Second slide"
                 />
                 <Carousel.Caption>
+                    {/* container for your personal biography and photo. Make sure to take high resolution image and downsize to fit. Background-repeat: no, background-fit: cover */}
                     <Container>
                         <Row>
                             <Col xs={6} md={6}>
@@ -69,7 +70,7 @@ export default function ProjectCarousel() {
                     <h3>DonorSpot</h3>
                     <p>This web application allows users to connect to charities or fundraisers they would like to support with monetary donations. In addition to donating, users can also create their own charity or fundraising page to ask for support from the visitors of the site.</p>
                     <Button className='ml-2' href="https://mighty-stream-41185.herokuapp.com/" target="_blank">Demo</Button>
-                    <Button className='ml-2' href="https://github.com/Anierva95/DonorSpot" target="_blank">Github</Button>
+                    <Button className='ml-2' href="https://github.com/Anierva95/DonorSpot" target="_blank">GitHub</Button>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>

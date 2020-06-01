@@ -1,21 +1,17 @@
 import React from 'react'
-import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 export default function SkillContainer() {
     return (
-        <Jumbotron className='d-block w-100'>
+        <Container>
             <Row>
-               <ol>
-                   <li>JavaScript</li>
-                   <li>ReactJS</li>
-                   <li>CSS</li>
-                   <li>MERN Stack</li>
-               </ol>
+                <Col>
+                <p>Skills</p>
+                </Col>
             </Row>
-
-        </Jumbotron>
+        </Container>
     )
 }
