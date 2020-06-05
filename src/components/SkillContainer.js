@@ -9,93 +9,112 @@ import Card from 'react-bootstrap/Card';
 export default function SkillContainer() {
     return (
         <Container>
-            <CardDeck>
-                <Card>
+            <CardDeck className="text-center">
+                <Card className="mt-1 mb-1">
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-      </Card.Text>
+                        <Card.Title>NodeJS</Card.Title>
+                    </Card.Body>
+                </Card>
+                <Card className="mt-1 mb-1">
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Body>
+                        <Card.Title>MongoDB</Card.Title>
+                    </Card.Body>
+                </Card>
+                <Card className="mt-1 mb-1">
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Body>
+                        <Card.Title>JavaScript</Card.Title>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        {/* <small className="text-muted">Last updated 3 mins ago</small> */}
                     </Card.Footer>
                 </Card>
-                <Card>
+                <Card className="mt-1 mb-1">
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-                        </Card.Text>
+                        <Card.Title>NodeJS</Card.Title>
+                    </Card.Body>
+                </Card>
+                <Card className="mt-1 mb-1">
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Body>
+                        <Card.Title>JavaScript</Card.Title>
+                    </Card.Body>
+                </Card>
+            </CardDeck>
+
+             <CardDeck className="text-center">
+                <Card className="mt-1 mb-1">
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Body>
+                        <Card.Title>NodeJS</Card.Title>
+                    </Card.Body>
+                </Card>
+                <Card className="mt-1 mb-1">
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Body>
+                        <Card.Title>MongoDB</Card.Title>
+                    </Card.Body>
+                </Card>
+                <Card className="mt-1 mb-1">
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Body>
+                        <Card.Title>JavaScript</Card.Title>
                     </Card.Body>
                     <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
+                        {/* <small className="text-muted">Last updated 3 mins ago</small> */}
                     </Card.Footer>
                 </Card>
-                <Card>
+                <Card className="mt-1 mb-1">
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
-      </Card.Text>
+                        <Card.Title>NodeJS</Card.Title>
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
+                </Card>
+                <Card className="mt-1 mb-1">
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Body>
+                        <Card.Title>JavaScript</Card.Title>
+                    </Card.Body>
                 </Card>
             </CardDeck>
 
             {/* Second Row */}
 
-            <CardDeck>
-                <Card>
+            {/* <CardDeck className="text-center">
+                <Card className="mt-1 mb-1">
+                    <Card.Img variant="bottom" src="holder.js/100px160" />
+                    <Card.Body>
+                        <Card.Title>NodeJS</Card.Title>
+                    </Card.Body>
+                </Card>
+                <Card className="mt-1 mb-1">
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.
-      </Card.Text>
+                        <Card.Title>MongoDB</Card.Title>
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
                 </Card>
-                <Card>
+                <Card className="mt-1 mb-1">
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to additional
-        content.{' '}
-                        </Card.Text>
+                        <Card.Title>JavaScript</Card.Title>
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
                 </Card>
-                <Card>
+                <Card className="mt-1 mb-1">
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This card has even longer content than the first to
-                            show that equal height action.
-      </Card.Text>
+                        <Card.Title>NodeJS</Card.Title>
                     </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
                 </Card>
-            </CardDeck>
+                <Card className="mt-1 mb-1">
+                    <Card.Img variant="top" src="holder.js/100px160" />
+                    <Card.Body>
+                        <Card.Title>JavaScript</Card.Title>
+                    </Card.Body>
+                </Card>
+            </CardDeck> */}
         </Container>
     )
 }
