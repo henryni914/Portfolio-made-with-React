@@ -34,14 +34,14 @@ export default function ProjectCarousel() {
                 <Carousel.Caption>
                     {/* container for your personal biography and photo. Make sure to take high resolution image and downsize to fit. Background-repeat: no, background-fit: cover */}
                     <Container>
-                        <Row>
+                        {/* <Row>
                             <Col xs={6} md={6}>
                                 <Image width='500' height='250' src={cart} rounded fluid />
                             </Col>
                             <Col xs={6} md={6}>
                                 <Image width='500' height='250' src={addtocart} rounded fluid />
                             </Col>
-                        </Row>
+                        </Row> */}
                     </Container>
                     <h3>E-Commerce Shop</h3>
                     <p>The motivation behind creating this application was the goal of creating a MERN full stack web application that would allow store owners or individuals to market/brand their products or services online. In this day and age, establishing an online presence can be a key factor of whether a business, brand or image can stay afloat and survive. </p>
