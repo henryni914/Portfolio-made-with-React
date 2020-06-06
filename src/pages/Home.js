@@ -5,6 +5,7 @@ import ProjectCarousel from '../components/ProjectCarousel'
 import ProjectBanner from '../components/ProjectBanner'
 import SkillBanner from '../components/SkillBanner'
 import SkillContainer from '../components/SkillContainer'
+import Footer from '../components/Footer'
 
 export default function Home() {
 
@@ -16,6 +17,7 @@ export default function Home() {
             <SkillContainer />
             <ProjectBanner />
             <ProjectCarousel />
+            <Footer />
         </>
     )
 }
