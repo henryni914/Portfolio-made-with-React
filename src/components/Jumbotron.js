@@ -15,22 +15,14 @@ export default function PageJumbotron() {
         <>
             <style type="text/css">
                 {`
-            .jumbotron {
-            color: white;
-            // background: url("https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80");
-            background: url("https://images.unsplash.com/photo-1422207258071-70754198c4a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3882&q=80");
-            background-size: cover;
-            height: 400px;
-            background-repeat: no-repeat;
-            // background-position: center;
-            }
+           
 
-            .btn-xxl {
-            padding: 1rem 1.5rem;
-            font-size: 1.5rem;
-            }
             `}
-
+                {/*       
+color: white;
+            // background: url("https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80");
+            background: url("https://images.unsplash.com/photo-1422207258071-70754198c4a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3882&q=80"); 
+            */}
 
             </style>
             <Jumbotron className='d-block w-100'>
@@ -38,10 +30,10 @@ export default function PageJumbotron() {
                     <Col xs={8}>
                         <h1>Henry Ni</h1>
                         <p>
-                            Hello, I am an aspiring full stack web developer with a background in JavaScript, React, Node.js, MongoDB, MySQL, Bootstrap, and more. I enjoy the challenges of learning new technologies and languages when creating modern and functional web applications. Please see below for links to my resume, projects, and contact information. 
+                            Hello, I am an aspiring full stack web developer with a background in JavaScript, React, Node.js, MongoDB, MySQL, Bootstrap, and more. I enjoy the challenges of learning new technologies and languages in order to create modern and functional web applications. Please see below for links to my resume, projects, and contact information.
                     </p>
-                    <p>
-                        Email: ni.henry914@gmail.com
+                        <p>
+                            Email: ni.henry914@gmail.com
                     </p>
                         <p>
                             <Button variant="primary" className='mr-2 mt-2' href="https://github.com/henryni914" target="_blank">Github</Button>
@@ -54,7 +46,7 @@ export default function PageJumbotron() {
                             src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
                             rounded
                             width='100%'
-                            height='200px' />
+                            height='250px' />
                         {/* <img
                         className='rounded circle'
                         width='100%'
