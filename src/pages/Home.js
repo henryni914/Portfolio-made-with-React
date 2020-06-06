@@ -13,8 +13,8 @@ export default function Home() {
         <>
             <NavBar />
             <Jumbotron />
-            <SkillBanner />
-            <SkillContainer />
+            {/* <SkillBanner />
+            <SkillContainer /> */}
             <ProjectBanner />
             <ProjectCarousel />
             <Footer />
