@@ -44,9 +44,9 @@ export default function PageJumbotron() {
                         Sample
                     </p>
                         <p>
-                            <Button variant="primary" className='mr-2' href="https://github.com/henryni914" target="_blank">Github</Button>
-                            <Button variant="primary" className='mr-2'>Resume</Button>
-                            <Button variant="primary" className='mr-2'>LinkedIn</Button>
+                            <Button variant="primary" className='mr-2 mt-2' href="https://github.com/henryni914" target="_blank">Github</Button>
+                            <Button variant="primary" className='mr-2 mt-2' href="https://drive.google.com/file/d/16BnBU24hodbMOze6REZ7yxqTd4uyUEd5/view?usp=sharing" target="_blank">Resume</Button>
+                            <Button variant="primary" className='mr-2 mt-2' href="https://www.linkedin.com/in/henry-ni-79b118102/" target="_blank">LinkedIn</Button>
                         </p>
                     </Col>
                     <Col>

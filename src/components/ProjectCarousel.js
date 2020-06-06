@@ -34,14 +34,14 @@ export default function ProjectCarousel() {
                 <Carousel.Caption>
                     {/* container for your personal biography and photo. Make sure to take high resolution image and downsize to fit. Background-repeat: no, background-fit: cover */}
                     <Container>
-                        {/* <Row>
-                            <Col xs={6} md={6}>
+                        <Row>
+                            {/* <Col xs={6} md={6}>
                                 <Image width='500' height='250' src={cart} rounded fluid />
+                            </Col> */}
+                            <Col xs={12} md={12}>
+                                <Image width='600' height='300' src={addtocart} rounded fluid />
                             </Col>
-                            <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={addtocart} rounded fluid />
-                            </Col>
-                        </Row> */}
+                        </Row>
                     </Container>
                     <h3>E-Commerce Shop</h3>
                     <p>The motivation behind creating this application was the goal of creating a MERN full stack web application that would allow store owners or individuals to market/brand their products or services online. In this day and age, establishing an online presence can be a key factor of whether a business, brand or image can stay afloat and survive. </p>
@@ -59,12 +59,12 @@ export default function ProjectCarousel() {
                 <Carousel.Caption>
                     <Container>
                         <Row>
-                            <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={donorHome} rounded fluid />
+                            <Col xs={12} md={12}>
+                                <Image width='600' height='300' src={donorHome} rounded fluid />
                             </Col>
-                            <Col xs={6} md={6}>
+                            {/* <Col xs={6} md={6}>
                                 <Image width='500' height='250' src={charityPage} rounded fluid />
-                            </Col>
+                            </Col> */}
                         </Row>
                     </Container>
                     <h3>DonorSpot</h3>
@@ -83,15 +83,15 @@ export default function ProjectCarousel() {
                 <Carousel.Caption>
                     <Container>
                         <Row>
-                            <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={dashTop} rounded fluid />
+                            <Col xs={12} md={12}>
+                                <Image width='600' height='300' src={dashTop} rounded fluid />
                             </Col>
-                            <Col xs={6} md={6}>
+                            {/* <Col xs={6} md={6}>
                                 <Image width='500' height='250' src={dashBottom} rounded fluid />
-                            </Col>
+                            </Col> */}
                         </Row>
                     </Container>
-                    <h3>Personal dashboard</h3>
+                    <h3>Personal Dshboard</h3>
                     <p>The motivation behind creating a personal dashboard is to create a user customizable page that has information they want displayed. This essentially creates a 'one-stop shop' for users to get updated or informed on matters they would like to have readily available. Some options include, real-time stock prices, weather, top headlines, and a map with real-time traffic. </p>
                     <Button className='ml-2' href="https://henryni914.github.io/personal-dashboard/" target="_blank">Demo</Button>
                     <Button className='ml-2' href="https://github.com/henryni914/personal-dashboard" target="_blank">Github</Button>
