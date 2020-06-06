@@ -36,12 +36,12 @@ export default function PageJumbotron() {
             <Jumbotron className='d-block w-100'>
                 <Row>
                     <Col xs={8}>
-                        <h1>Welcome to my portfolio!</h1>
+                        <h1>Henry Ni</h1>
                         <p>
-                            Add a picture that spans the banner and introduces myself in a sentence or two.
+                            Hello, I am an aspiring full stack web developer with a background in JavaScript, React, Node.js, MongoDB, MySQL, Bootstrap, and more. I enjoy the challenges of learning new technologies and languages when creating modern and functional web applications. Please see below for links to my resume, projects, and contact information. 
                     </p>
                     <p>
-                        Sample
+                        Email: ni.henry914@gmail.com
                     </p>
                         <p>
                             <Button variant="primary" className='mr-2 mt-2' href="https://github.com/henryni914" target="_blank">Github</Button>
@@ -50,11 +50,11 @@ export default function PageJumbotron() {
                         </p>
                     </Col>
                     <Col>
-                        {/* <Image
+                        <Image
                             src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
                             rounded
                             width='100%'
-                            height='200px' /> */}
+                            height='200px' />
                         {/* <img
                         className='rounded circle'
                         width='100%'
