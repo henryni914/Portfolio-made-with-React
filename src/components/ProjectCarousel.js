@@ -92,7 +92,7 @@ export default function ProjectCarousel() {
                         </Row>
                     </Container>
                     <h3>Personal Dashboard</h3>
-                    <p>The motivation behind creating a personal dashboard is to create a user customizable page that has information they want displayed. This essentially creates a 'one-stop shop' for users to get updated or informed on matters they would like to have readily available. Some options include, real-time stock prices, weather, top headlines, and a map with real-time traffic. </p>
+                    {/* <p>The motivation behind creating a personal dashboard is to create a user customizable page that has information they want displayed. This essentially creates a 'one-stop shop' for users to get updated or informed on matters they would like to have readily available. Some options include, real-time stock prices, weather, top headlines, and a map with real-time traffic. </p> */}
                     <Button className='ml-2' href="https://henryni914.github.io/personal-dashboard/" target="_blank">Demo</Button>
                     <Button className='ml-2' href="https://github.com/henryni914/personal-dashboard" target="_blank">Github</Button>
                 </Carousel.Caption>
