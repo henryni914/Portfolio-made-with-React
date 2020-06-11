@@ -73,7 +73,7 @@ export default function ProjectCarousel() {
                     <Button className='ml-2' href="https://github.com/Anierva95/DonorSpot" target="_blank">GitHub</Button>
                 </Carousel.Caption>
             </Carousel.Item>
-            {/* <Carousel.Item>
+            <Carousel.Item>
                 <img
                     className="d-block w-100"
                     height='500'
@@ -86,7 +86,9 @@ export default function ProjectCarousel() {
                             <Col xs={12} md={12}>
                                 <Image width='600' height='300' src={dashTop} rounded fluid />
                             </Col>
-                        
+                            {/* <Col xs={6} md={6}>
+                                <Image width='500' height='250' src={dashBottom} rounded fluid />
+                            </Col> */} 
                         </Row>
                     </Container>
                     <h3>Personal Dashboard</h3>
@@ -94,10 +96,7 @@ export default function ProjectCarousel() {
                     <Button className='ml-2' href="https://henryni914.github.io/personal-dashboard/" target="_blank">Demo</Button>
                     <Button className='ml-2' href="https://github.com/henryni914/personal-dashboard" target="_blank">Github</Button>
                 </Carousel.Caption>
-            </Carousel.Item> */}
-                {/* <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={dashBottom} rounded fluid />
-                            </Col> */} 
+            </Carousel.Item>
         </Carousel>
     )
 }
