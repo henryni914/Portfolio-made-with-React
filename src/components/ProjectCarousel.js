@@ -83,9 +83,9 @@ export default function ProjectCarousel() {
                 <Carousel.Caption>
                     <Container>
                         <Row>
-                            {/* <Col xs={12} md={12}>
+                            <Col xs={12} md={12}>
                                 <Image width='600' height='300' src={dashTop} rounded fluid />
-                            </Col> */}
+                            </Col>
                             {/* <Col xs={6} md={6}>
                                 <Image width='500' height='250' src={dashBottom} rounded fluid />
                             </Col> */} 
