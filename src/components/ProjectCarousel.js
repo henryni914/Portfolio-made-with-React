@@ -67,10 +67,10 @@ export default function ProjectCarousel() {
                             </Col> */}
                         </Row>
                     </Container>
-                    <h3>DonorSpot</h3>
+                    {/* <h3>DonorSpot</h3>
                     <p>This web application allows users to connect to charities or fundraisers they would like to support with monetary donations. In addition to donating, users can also create their own charity or fundraising page to ask for support from the visitors of the site.</p>
                     <Button className='ml-2' href="https://mighty-stream-41185.herokuapp.com/" target="_blank">Demo</Button>
-                    <Button className='ml-2' href="https://github.com/Anierva95/DonorSpot" target="_blank">GitHub</Button>
+                    <Button className='ml-2' href="https://github.com/Anierva95/DonorSpot" target="_blank">GitHub</Button> */}
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
