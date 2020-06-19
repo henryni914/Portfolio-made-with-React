@@ -30,10 +30,10 @@ color: white;
                     <Col xs={8}>
                         <h1>Henry Ni</h1>
                         <p>
-                            Hello, I am an aspiring full stack web developer with a background in JavaScript, React, Node.js, MongoDB, MySQL, Bootstrap, and more. I enjoy the challenges of learning new technologies and languages in order to create modern and functional web applications. Please see below for links to my resume, projects, and contact information.
+                            Hello, I am a full stack web developer with a background in JavaScript, React, Node.js, MongoDB, MySQL, Bootstrap, and more. I enjoy the challenges of learning new technologies and languages in order to create modern and functional web applications. Please see below for links to my resume, projects, and contact information.
                     </p>
                         <p>
-                            Email: ni.henry914@gmail.com
+                            {/* Email: ni.henry914@gmail.com */}
                     </p>
                         <p>
                             <Button variant="primary" className='mr-2 mt-2' href="https://github.com/henryni914" target="_blank">Github</Button>
