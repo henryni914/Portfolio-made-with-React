@@ -35,6 +35,9 @@ color: white;
                         <p>
                             Email: ni.henry914@gmail.com
                     </p>
+                    <p>
+                    Phone: (302) 358-1294
+                    </p>
                         <p>
                             <Button variant="primary" className='mr-2 mt-2' href="https://github.com/henryni914" target="_blank">Github</Button>
                             <Button variant="primary" className='mr-2 mt-2' href="https://drive.google.com/file/d/16BnBU24hodbMOze6REZ7yxqTd4uyUEd5/view?usp=sharing" target="_blank">Resume</Button>
