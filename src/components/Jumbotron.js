@@ -33,7 +33,7 @@ color: white;
                             Hello, I am a full stack web developer with a background in JavaScript, React, Node.js, MongoDB, MySQL, Bootstrap, and more. I enjoy the challenges of learning new technologies and languages in order to create modern and functional web applications. Please see below for links to my resume, projects, and contact information.
                     </p>
                         <p>
-                            Email: ni.henry914@gmail.com
+                            {/* Email: ni.henry914@gmail.com */}
                     </p>
                     <p>
                     Phone: 
