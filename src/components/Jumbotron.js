@@ -7,22 +7,23 @@ import Image from 'react-bootstrap/Image';
 
 export default function PageJumbotron() {
 
-    // const styles = {
-    //     backgroundimage: "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg"
-    // }
+    const styles = {
+        backgroundimage: "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(32).jpg"
+    }
     return (
 
         <>
             <style type="text/css">
                 {`
            
-
+           color: white;
+           background: url("https://images.unsplash.com/photo-1422207258071-70754198c4a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3882&q=80"); 
             `}
-                {/*       
-color: white;
+
+
             // background: url("https://images.unsplash.com/photo-1453928582365-b6ad33cbcf64?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2104&q=80");
-            background: url("https://images.unsplash.com/photo-1422207258071-70754198c4a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3882&q=80"); 
-            */}
+
+
 
             </style>
             <Jumbotron className='d-block w-100'>
@@ -30,13 +31,13 @@ color: white;
                     <Col xs={8}>
                         <h1>Henry Ni</h1>
                         <p>
-                            {/* Hello, I am a full stack web developer with a background in JavaScript, React, Node.js, MongoDB, MySQL, Bootstrap, and more. I enjoy the challenges of learning new technologies and languages in order to create modern and functional web applications. Please see below for links to my resume, projects, and contact information. */}
+                            Hello, I am a full stack web developer with a background in JavaScript, React, Node.js, MongoDB, MySQL, Bootstrap, and more. I enjoy the challenges of learning new technologies and languages in order to create modern and functional web applications. Please see below for links to my resume, projects, and contact information.
                     </p>
                         <p>
-                            {/* Email: ni.henry914@gmail.com */}
+                            Email: ni.henry914@gmail.com
                     </p>
-                    <p>
-                    Phone: 
+                        <p>
+                            Phone: (302) 358-1294
                     </p>
                         <p>
                             <Button variant="primary" className='mr-2 mt-2' href="https://github.com/henryni914" target="_blank">Github</Button>
