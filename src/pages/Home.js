@@ -6,6 +6,7 @@ import ProjectBanner from '../components/ProjectBanner'
 import SkillBanner from '../components/SkillBanner'
 import SkillContainer from '../components/SkillContainer'
 import Footer from '../components/Footer'
+import About from '../components/AboutMe'
 
 export default function Home() {
 
@@ -15,8 +16,11 @@ export default function Home() {
             <Jumbotron />
             {/* <SkillBanner />
             <SkillContainer /> */}
+            <div class="container">
+            <About />
+            </div>
             <ProjectBanner />
-            <ProjectCarousel />
+            <ProjectCarousel /> 
             <Footer />
         </>
     )

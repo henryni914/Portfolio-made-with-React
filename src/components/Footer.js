@@ -5,11 +5,8 @@ import Container from 'react-bootstrap/Container';
 export default function Footer() {
 
     return (
-        <Navbar bg="dark" variant="dark" sticky="bottom" className="text-white"> 
-        {/* className="mt-2" */}
-        <Container>
-            <p>Copyright 2020</p>
-        </Container>
+        <Navbar bg="dark" variant="dark" sticky="bottom" className="text-white text-center">
+            <p>© 2020 Copyright</p>
         </Navbar>
     )
 }
