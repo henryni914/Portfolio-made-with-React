@@ -8,9 +8,6 @@ export default function ProjectBar() {
             <Navbar.Brand>
                 Projects
             </Navbar.Brand>
-            {/* <Navbar.Text>
-                Projects
-        </Navbar.Text> */}
         </Navbar>
     )
 }

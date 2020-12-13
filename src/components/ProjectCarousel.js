@@ -29,7 +29,6 @@ export default function ProjectCarousel() {
                     className="d-block w-100"
                     height='500'
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-                    // src="https://images.unsplash.com/photo-1492754551712-6b98464f71b1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=975&q=80"
                     alt="Second slide"
                 />
                 <Carousel.Caption>
