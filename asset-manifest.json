@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Portfolio-made-with-React/static/css/main.0c2379a5.chunk.css",
-    "main.js": "/Portfolio-made-with-React/static/js/main.7f0f6288.chunk.js",
-    "main.js.map": "/Portfolio-made-with-React/static/js/main.7f0f6288.chunk.js.map",
+    "main.js": "/Portfolio-made-with-React/static/js/main.f796f7f3.chunk.js",
+    "main.js.map": "/Portfolio-made-with-React/static/js/main.f796f7f3.chunk.js.map",
     "runtime-main.js": "/Portfolio-made-with-React/static/js/runtime-main.315eb77a.js",
     "runtime-main.js.map": "/Portfolio-made-with-React/static/js/runtime-main.315eb77a.js.map",
-    "static/js/2.fab859be.chunk.js": "/Portfolio-made-with-React/static/js/2.fab859be.chunk.js",
-    "static/js/2.fab859be.chunk.js.map": "/Portfolio-made-with-React/static/js/2.fab859be.chunk.js.map",
+    "static/js/2.dcacdc83.chunk.js": "/Portfolio-made-with-React/static/js/2.dcacdc83.chunk.js",
+    "static/js/2.dcacdc83.chunk.js.map": "/Portfolio-made-with-React/static/js/2.dcacdc83.chunk.js.map",
     "index.html": "/Portfolio-made-with-React/index.html",
-    "precache-manifest.827fadcf8c956a916eacd3ccd3991d9b.js": "/Portfolio-made-with-React/precache-manifest.827fadcf8c956a916eacd3ccd3991d9b.js",
+    "precache-manifest.0f6ef47dbc693fce08afb1ec87805266.js": "/Portfolio-made-with-React/precache-manifest.0f6ef47dbc693fce08afb1ec87805266.js",
     "service-worker.js": "/Portfolio-made-with-React/service-worker.js",
     "static/css/main.0c2379a5.chunk.css.map": "/Portfolio-made-with-React/static/css/main.0c2379a5.chunk.css.map",
-    "static/js/2.fab859be.chunk.js.LICENSE.txt": "/Portfolio-made-with-React/static/js/2.fab859be.chunk.js.LICENSE.txt",
+    "static/js/2.dcacdc83.chunk.js.LICENSE.txt": "/Portfolio-made-with-React/static/js/2.dcacdc83.chunk.js.LICENSE.txt",
     "static/media/AddToCart.png": "/Portfolio-made-with-React/static/media/AddToCart.336a8192.png",
     "static/media/Cart.png": "/Portfolio-made-with-React/static/media/Cart.8f42f016.png",
     "static/media/CharityPage.png": "/Portfolio-made-with-React/static/media/CharityPage.1ecfcca5.png",
@@ -21,8 +21,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.315eb77a.js",
-    "static/js/2.fab859be.chunk.js",
+    "static/js/2.dcacdc83.chunk.js",
     "static/css/main.0c2379a5.chunk.css",
-    "static/js/main.7f0f6288.chunk.js"
+    "static/js/main.f796f7f3.chunk.js"
   ]
 }
