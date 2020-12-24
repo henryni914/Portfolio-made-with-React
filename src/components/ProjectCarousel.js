@@ -45,7 +45,7 @@ export default function ProjectCarousel() {
                     </Container>
                     <h3>E-Commerce Shop</h3>
                     <p>The motivation behind creating this application was the goal of creating a MERN full stack web application that would allow store owners or individuals to market/brand their products or services online. In this day and age, establishing an online presence can be a key factor of whether a business, brand or image can stay afloat and survive. </p>
-                    <Button className='ml-2' href="https://ecommerce-bootcamp.herokuapp.com/" target="_blank">Demo</Button>
+                    <Button className='ml-2' href="https://immense-spire-93774.herokuapp.com/" target="_blank">Demo</Button>
                     <Button className='ml-2' href="https://github.com/henryni914/ECommerce_WebApp" target="_blank">Github</Button>
                 </Carousel.Caption>
             </Carousel.Item>
