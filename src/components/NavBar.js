@@ -13,11 +13,11 @@ export default function NavBar() {
                     height="30"
                     className="d-inline-block align-top rounded"
                 />{' '} */}
-          Henry Ni
+          HN
         </Navbar.Brand>
-        <Navbar.Text>
+        {/* <Navbar.Text>
             Web Developer
-        </Navbar.Text>
+        </Navbar.Text> */}
         </Navbar>
     )
 }

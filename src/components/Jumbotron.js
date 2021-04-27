@@ -9,18 +9,22 @@ import '../index.css'
 export default function PageJumbotron() {
 
     return (
-
-        <>
-            <div className='mainJumbo d-flex justify-content-center align-items-center text-center'>
-                <Row>
-                    <Col xs={12}>
-                        <h1>Henry Ni</h1>
-                        <br></br>
-                        <h2>Full Stack Web Developer</h2>
-                    </Col>
-                </Row>
-
+        // d-flex justify-content-center align-items-center text-center
+        <div className='mainJumbo '>
+            <div className='mainJumbo_text-box'>
+                <h1 className='mainJumbo-primary'>
+                    <span className='mainJumbo-primary--main'>Henry Ni</span>
+                    <span className='mainJumbo-primary--sub'>Full Stack Web Developer</span>
+                </h1>
             </div>
-        </>
+        </div>
     )
 }
+
+{/* <Row>
+                <Col xs={12}>
+                    <h1>Henry Ni</h1>
+                    <br></br>
+                    <h2>Full Stack Web Developer</h2>
+                </Col>
+            </Row> */}

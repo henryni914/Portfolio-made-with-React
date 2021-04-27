@@ -1,17 +1,105 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  /* padding: 3rem; */
 }
 
 .mainJumbo {
-  height: 100vh;
+  height: 95vh;
   /* background-image: url("https://images.unsplash.com/photo-1422207258071-70754198c4a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3882&q=80"); */
   /* background-image: url("https://images.unsplash.com/photo-1593062096033-9a26b09da705?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2100&q=80"); */
   /* background-image: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1867&q=80"); */
   /* background-image: url("https://images.unsplash.com/photo-1507608158173-1dcec673a2e5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"); */
-  background-image: url("https://images.unsplash.com/photo-1460355976672-71c3f0a4bdac?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2100&q=80");
-  background-repeat: no-repeat;
+  /* background-image: url("https://images.unsplash.com/photo-1460355976672-71c3f0a4bdac?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2100&q=80"); */
+  /* background-repeat: no-repeat; */
+  background-image: linear-gradient(to right bottom, #181a69da, #37b2d8ce),
+    url(./images/portfolio-img1.jpg);
   background-size: cover;
   background-position: center;
   color: white;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 60vh);
 }
+
+.mainJumbo_text-box {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  /* background-color: red; */
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.mainJumbo-primary--main {
+  display: block;
+  /* font-size: 6rem; */
+  font-weight: 400;
+  /* letter-spacing: 3.5rem; */
+
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.mainJumbo-primary--sub {
+  display: block;
+  /* font-size: 2rem; */
+  font-weight: 500;
+  /* letter-spacing: 1.75rem; */
+
+  animation: moveInRight 1s ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100rem);
+  }
+
+  80% {
+      transform: translateX(1rem);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(10rem);
+  }
+
+  80% {
+      transform: translateX(-1rem);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(3rem);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translate(0);
+  }
+}
+

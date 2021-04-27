@@ -1,17 +1,13 @@
 import React, { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel'
-import Row from 'react-bootstrap/Row'
-import Container from 'react-bootstrap/Container'
-import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
-import Button from 'react-bootstrap/Button'
-import cart from '../images/Cart.png'
-import addtocart from '../images/AddToCart.png'
-import donorHome from '../images/DonorSpot Home.png'
-import charityPage from '../images/CharityPage.png'
-import dashTop from '../images/DashTop.png'
-import dashBottom from '../images/DashBottom.png'
-
+import Carousel from 'react-bootstrap/Carousel';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
+import addtocart from '../images/AddToCart.png';
+import donorHome from '../images/DonorSpot Home.png';
+import rwfHome from '../images/RwfHome.png';
 
 export default function ProjectCarousel() {
 
@@ -24,53 +20,51 @@ export default function ProjectCarousel() {
     return (
 
         <Carousel className='carousel-multi-item' activeIndex={index} onSelect={handleSelect} fluid>
+            <Carousel.Item>
+                <img
+                    className="d-block w-100"
+                    height='500'
+                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                    alt="First slide"
+                />
+                <Carousel.Caption>
+                    <Container>
+                        <Row>
+                            <Col xs={12} md={12}>
+                                <Image width='600' height='300' src={rwfHome} rounded fluid />
+                            </Col>
+                        </Row>
+                    </Container>
+                    <h3>Reviews With Friends</h3>
+                    <p>A full stack web app for users to keep track of films & movies that they have watched, liked or have yet to watch.
+                    Explore and search using either the search feature or using the browse section.
+                        Users are also able to submit and edit their own reviews as well as liking other users' reviews. </p>
+                    <Button className='ml-2' href="https://reviews-with-friends.herokuapp.com/" target="_blank">Demo</Button>
+                    <Button className='ml-2' href="https://github.com/henryni914/Reviews-with-friends" target="_blank">Github</Button>
+                </Carousel.Caption>
+            </Carousel.Item>
             <Carousel.Item align='center'>
                 <img
                     className="d-block w-100"
                     height='500'
                     src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                    // src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1950&q=80"
                     alt="Second slide"
                 />
                 <Carousel.Caption>
-                    {/* container for your personal biography and photo. Make sure to take high resolution image and downsize to fit. Background-repeat: no, background-fit: cover */}
                     <Container>
                         <Row>
-                            {/* <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={cart} rounded fluid />
-                            </Col> */}
                             <Col xs={12} md={12}>
                                 <Image width='600' height='300' src={addtocart} rounded fluid />
                             </Col>
                         </Row>
                     </Container>
                     <h3>E-Commerce Shop</h3>
-                    <p>The motivation behind creating this application was the goal of creating a MERN full stack web application that would allow store owners or individuals to market/brand their products or services online. In this day and age, establishing an online presence can be a key factor of whether a business, brand or image can stay afloat and survive. </p>
+                    <p>MERN full stack web application that allows store owners or individuals to display their products on an online platform.
+                    Auth0 and Stripe were used for user authentication and payment processing, respectively.
+                    Utilizes RESTful API for inventory management and the blog feature.</p>
                     <Button className='ml-2' href="https://immense-spire-93774.herokuapp.com/" target="_blank">Demo</Button>
                     <Button className='ml-2' href="https://github.com/henryni914/ECommerce_WebApp" target="_blank">Github</Button>
-                </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-                <img
-                    className="d-block w-100"
-                    height='500'
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
-                    alt="Second slide"
-                />
-                <Carousel.Caption>
-                    <Container>
-                        <Row>
-                            <Col xs={12} md={12}>
-                                <Image width='600' height='300' src={donorHome} rounded fluid />
-                            </Col>
-                            {/* <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={charityPage} rounded fluid />
-                            </Col> */}
-                        </Row>
-                    </Container>
-                    <h3>DonorSpot</h3>
-                    <p>This web application allows users to connect to charities or fundraisers they would like to support with monetary donations. In addition to donating, users can also create their own charity or fundraising page to ask for support from the visitors of the site.</p>
-                    <Button className='ml-2' href="https://mighty-stream-41185.herokuapp.com/" target="_blank">Demo</Button>
-                    <Button className='ml-2' href="https://github.com/Anierva95/DonorSpot" target="_blank">GitHub</Button>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -84,17 +78,18 @@ export default function ProjectCarousel() {
                     <Container>
                         <Row>
                             <Col xs={12} md={12}>
-                                <Image width='600' height='300' src={dashTop} rounded fluid />
+                                <Image width='600' height='300' src={donorHome} rounded fluid />
                             </Col>
                             {/* <Col xs={6} md={6}>
-                                <Image width='500' height='250' src={dashBottom} rounded fluid />
-                            </Col> */} 
+                                <Image width='500' height='250' src={charityPage} rounded fluid />
+                            </Col> */}
                         </Row>
                     </Container>
-                    <h3>Personal Dashboard</h3>
-                    <p>The motivation behind creating a personal dashboard is to create a user customizable page that has information they want displayed. This essentially creates a 'one-stop shop' for users to get updated or informed on matters they would like to have readily available. Some options include, real-time stock prices, weather, top headlines, and a map with real-time traffic. </p>
-                    <Button className='ml-2' href="https://henryni914.github.io/personal-dashboard/" target="_blank">Demo</Button>
-                    <Button className='ml-2' href="https://github.com/henryni914/personal-dashboard" target="_blank">Github</Button>
+                    <h3>DonorSpot</h3>
+                    <p>This web application allows users to connect to charities or fundraisers they would like to support with monetary donations. 
+                        In addition to donating, users can also create their own charity or fundraising page to ask for support from the visitors of the site.</p>
+                    <Button className='ml-2' href="https://mighty-stream-41185.herokuapp.com/" target="_blank">Demo</Button>
+                    <Button className='ml-2' href="https://github.com/Anierva95/DonorSpot" target="_blank">GitHub</Button>
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>
