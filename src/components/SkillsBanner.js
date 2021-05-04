@@ -6,7 +6,7 @@ export default function ProjectBar() {
     return (
         <Navbar bg="dark" variant="dark" text-align='center'>
             <Navbar.Brand>
-                Technologies
+                About Me
             </Navbar.Brand>
         </Navbar>
     )

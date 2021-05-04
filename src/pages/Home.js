@@ -18,9 +18,9 @@ export default function Home() {
             <div class="container">
                 <About />
             </div>
-            <SkillsBanner />
-            <Skills />
-            <ProjectBanner />
+            {/* <SkillsBanner /> */}
+            {/* <Skills /> */}
+            {/* <ProjectBanner /> */}
             <ProjectSection />
             {/* <ProjectCarousel />  */}
             <Footer />

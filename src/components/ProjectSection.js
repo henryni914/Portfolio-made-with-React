@@ -28,7 +28,9 @@ export default function Skills() {
 
     return (
         <>
+
             <Container align='center'>
+                <h2>Projects</h2>
                 <Row>
                     <Col xs={12} md={4}>
                         <Card className='mb-3 mt-3'>
