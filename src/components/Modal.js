@@ -10,7 +10,7 @@ export default function ProjectModal(props) {
     return (
         <>
             <Button variant="primary" className='ml-2 mt-2' onClick={handleShow}>
-                Technologies
+                Technology
             </Button>
             <Modal show={show} onHide={handleClose}>
                 <Modal.Header closeButton>
