@@ -1,23 +1,29 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
+import { Button, Form, Nav, Navbar } from 'react-bootstrap';
+import Icon from '../images/favicon-32x32.png'
 
 export default function NavBar() {
 
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" id='home' >
             <Navbar.Brand href="#home">
                 {/* <img
                     alt=""
-                    src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+                    src={Icon}
                     width="30"
                     height="30"
                     className="d-inline-block align-top rounded"
                 />{' '} */}
           HN
         </Navbar.Brand>
-        {/* <Navbar.Text>
+            <Nav className="mr-auto">
+                <Nav.Link href="#about">About Me</Nav.Link>
+                <Nav.Link href="#projects">Projects</Nav.Link>
+            </Nav>
+            {/* <Navbar.Text>
             Web Developer
         </Navbar.Text> */}
+
         </Navbar>
     )
 }

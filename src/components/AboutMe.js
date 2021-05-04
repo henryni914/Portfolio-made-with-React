@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 
 export default function AboutMe() {
     return (
-        <Container>
+        <Container >
             <h2 align='center'>About Me</h2>
             <section className='mt-5 mb-5'>
                 <div className="row">
@@ -27,7 +27,7 @@ export default function AboutMe() {
                         <img src="https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1311&q=80" className="img-fluid" alt="laptop on desk"></img>
                     </div>
                 </div>
-                <div className="row about-btn d-flex justify-content-center mt-5 mb-5">
+                <div className="row about-btn d-flex justify-content-center mt-5 mb-5" align='center'>
                     <p>
                         <Button variant="primary" className='mr-2 mt-2' href="https://github.com/henryni914" target="_blank"><i className="bi bi-github"></i> Github</Button>
                         <Button variant="primary" className='mr-2 mt-2' href="https://drive.google.com/file/d/16BnBU24hodbMOze6REZ7yxqTd4uyUEd5/view?usp=sharing" target="_blank">Resume</Button>

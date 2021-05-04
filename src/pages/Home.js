@@ -15,7 +15,7 @@ export default function Home() {
         <>
             <NavBar />
             <Jumbotron />
-            <div class="container">
+            <div class="container" id='about'>
                 <About />
             </div>
             {/* <SkillsBanner /> */}

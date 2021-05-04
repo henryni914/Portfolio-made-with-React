@@ -29,7 +29,7 @@ export default function Skills() {
     return (
         <>
 
-            <Container align='center'>
+            <Container align='center' id='projects'>
                 <h2>Projects</h2>
                 <Row>
                     <Col xs={12} md={4}>
