@@ -30,7 +30,7 @@ export default function AboutMe() {
                 <div className="row about-btn d-flex justify-content-center mt-5 mb-5" align='center'>
                     <p>
                         <Button variant="primary" className='mr-2 mt-2' href="https://github.com/henryni914" target="_blank"><i className="bi bi-github"></i> Github</Button>
-                        <Button variant="primary" className='mr-2 mt-2' href="https://drive.google.com/file/d/16BnBU24hodbMOze6REZ7yxqTd4uyUEd5/view?usp=sharing" target="_blank">Resume</Button>
+                        <Button variant="primary" className='mr-2 mt-2' href="https://drive.google.com/file/d/1Hdx01ncMAB45w0_Bb7MsZgirv4pSlUK6/view?usp=sharing" target="_blank">Resume</Button>
                         <Button variant="primary" className='mr-2 mt-2' href="https://www.linkedin.com/in/henry-ni-79b118102/" target="_blank"><i className="bi bi-linkedin"></i> LinkedIn</Button>
                     </p>
                 </div>
